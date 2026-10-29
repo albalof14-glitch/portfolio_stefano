@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#06040f" />
+  <title>Stefano Albertini | Minha jornada com HTML e CSS</title>
+  <link rel="icon" type="image/png" href="img/logo-sa.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topo">
+    <a href="#inicio" class="logo" aria-label="Início">
+      <img src="img/logo-sa.png" alt="" width="44" height="44" />
+    </a>
+
+    <nav class="menu" aria-label="Menu principal">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre mim</a>
+      <a href="#jornada">Jornada</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <p class="hero__fundo" aria-hidden="true">HTML & CSS</p>
+      <div class="hero__arco" aria-hidden="true"></div>
+
+      <div class="hero__conteudo">
+        <h1>Stéfano Albertini</h1>
+        <p>Estudante, programador e desenvolvedor em início de carreira.</p>
+
+        <div class="botoes">
+          <a href="#jornada" class="botao botao--claro">
+            Ver minha jornada
+            <span class="botao__icone" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M7 17 17 7M8 7h9v9" />
+              </svg>
+            </span>
+          </a>
+          <a href="#contato" class="botao botao--escuro">Entrar em contato</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao sobre" id="sobre">
+      <div class="foto">
+        <img src="img/foto.png" alt="Foto de Stefano Albertini" width="600" height="600" />
+      </div>
+
+      <div class="texto">
+        <h2>Sobre mim</h2>
+        <p>Olá, bem-vindo(a) à minha página, eu sou Stefano e estou cursando Sistemas de Informações na Uninassau, e uso esta página para mostrar o resultado dos meus estudos.</p>
+        <p>Meu objetivo é me tornar desenvolvedor e construir projetos úteis para as pessoas, aprimorando minhas habilidades a cada etapa, então, estou aberto à propostas.</p>
+      </div>
+    </section>
+
+    <section class="secao" id="jornada">
+      <h2>Como comecei</h2>
+
+      <ol class="passos">
+        <li>
+          <h3>Primeiro contato com HTML:</h3>
+          <p>Tive dificuldades em entender html no começo, sem me aprofundar por fora da faculdade, me interessei mais no que podia fazer usando html e css em uma das aulas, procurei arquivos online e vídeos tutoriais, e pouco a pouco entendi e aprendi a estruturar uma página com títulos, parágrafos e links.</p>
+        </li>
+        <li>
+          <h3>Dando vida com CSS:</h3>
+          <p>Meu primeiro contato com estilização, aprendi muito sobre: Cores, fontes, margens e o primeiro card centralizado na tela. Me aventurei bastante em questão de entender o que cada código fazia.</p>
+        </li>
+        <li>
+          <h3>Próximo passo:</h3>
+          <p>Layouts responsivos (JavaScript) e meu primeiro projeto completo, não sei usar JS ainda, porém será o minha próxima etapa, hoje 29/10/2026.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="secao contato" id="contato">
+      <h2>Vamos conversar?</h2>
+      <p>Aberto para projetos ou oportunidades.</p>
+      <div class="botoes">
+        <a href="mailto:seuemail@exemplo.com" class="botao botao--escuro">
+          <img src="img/email.svg" alt="" width="20" height="20" />
+          E-mail
+        </a>
+        <a href="https://github.com/albalof14-glitch" class="botao botao--escuro" target="_blank" rel="noopener">
+          <img src="img/github.svg" alt="" width="20" height="20" />
+          GitHub
+        </a>
+        <a href="https://wa.me/5581985706293" class="botao botao--escuro" target="_blank" rel="noopener">
+          <img src="img/whatsapp.svg" alt="" width="20" height="20" />
+          WhatsApp
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>Feito por Stefano Albertini com HTML e CSS.</p>
+  </footer>
+</body>
+</html>
