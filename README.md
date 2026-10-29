@@ -22,7 +22,7 @@ O projeto não usa JavaScript nem bibliotecas externas.
 ## Estrutura do projeto
 
 ```
-portfolio/
+portfolio_stefano/
 ├── index.html
 ├── style.css
 └── img/
