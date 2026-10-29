@@ -28,7 +28,6 @@ portfolio/
 └── img/
     ├── logo-sa.png
     ├── foto.png
-    ├── foto-original.png
     ├── email.svg
     ├── github.svg
     └── whatsapp.svg
